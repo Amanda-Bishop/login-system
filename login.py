@@ -95,6 +95,6 @@ class Window(QMainWindow):
 # Runs the code  
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    window = Window()
+    window = Window()                                               # Creates the window
     sys.exit(app.exec())                                            # Quits the program
 
